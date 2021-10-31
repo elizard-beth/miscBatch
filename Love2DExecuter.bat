@@ -2,6 +2,7 @@
 :: Requires LOVE2D
 
 @ECHO OFF
+ECHO !!DO NOT CLOSE THIS WINDOW UNTIL COMPLETED!!
 ECHO Begun at: %time% %date%
 if exist temp_saves()else(MKDIR temp_saves)
 COPY main.lua temp_saves
